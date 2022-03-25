@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/Background.jpg);  
+     
+}
+
+.statusbtns{
+    display: flex;
+    justify-content: space-between;
+}
+
+#approvedbtn, #pendingbtn, #deniedbtn{
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color:rgb(20, 0, 90);
+    margin: 20px;
+    padding: 10px 10px;
+    width: 100px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+p{
+    font-size:20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 95%;
+    padding: 40px;
+    background: rgba(162, 184, 253, 0.93);   
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:20px;
+    
+}

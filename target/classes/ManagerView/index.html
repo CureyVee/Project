@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Manager Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light" style="background-color: rgba(65, 0, 168, 0.93);">
+        <div class="container-fluid">
+          <a class="navbar-brand">Job Reimbursements - Manager </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <br>
+
+  <div class="container">
+    <p> Click on status type to view the data </p>
+    <!-- Displays a list of A,P,D and on click views status of employess meeting the criteria-->
+    <div class="statusbtns">
+      <input type="button" name="" value="Approved" id="approvedbtn" onclick="displayApproved()">
+      <input type="button" name="" value="Pending" id="pendingbtn" onclick="displayPending()">
+      <input type="button" name="" value="Denied" id="deniedbtn" onclick="displayDenied()">
+    </div>
+  </div>
+        
+  
+    <div class="list-container" id="list-container">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./managerscript.js"></script>
+</body>
+</html>

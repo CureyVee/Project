@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/Background.jpg);
+}
+
+.registerBox{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 750px;
+    height: 475px;
+    padding: 40px;
+    background: rgba(162, 184, 253, 0.93);   
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:20px;
+    
+}
+
+
+#registerBtn {
+    background-color: rgb(53, 0, 175);
+    border: none;
+    
+}
+
+#registerBtn:hover{
+    background-color: rgb(9, 0, 128);
+    transition: .25s;
+}

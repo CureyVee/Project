@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/Background.jpg);  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    width: 45%;
+   
+    padding: 20px;
+    background: rgba(24, 124, 155, 0.93);   
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:20px;
+    
+}
+
+.amount{
+    width: 200px;
+    padding:20px;
+}
+
+.description{
+    width: 500px;
+    padding:20px;
+}
+
+
+
+.open-button{
+    width: 260px;
+    margin-left: 5%;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(82, 99, 255, 0.93);
+    color: white;
+}
+
+.open-button:hover{
+    background-color: rgba(65, 79, 204, 0.93);
+    transition: 0.25s;
+}
+
+

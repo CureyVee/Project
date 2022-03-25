@@ -1,0 +1,78 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/Background.jpg);
+    
+}
+
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 40px;
+    background: rgba(162, 184, 253, 0.93);  
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.loginBox h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+}
+
+.loginBox .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    outline: none;
+    background: transparent;
+}
+
+
+.Buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#registerBtn{
+    border: none;
+    outline: none;
+    color: rgb(53, 0, 175);
+    background-color:#fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#loginBtn{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color:rgb(36, 118, 143);
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+h3{
+    text-align: center;
+}
+#loginBtn:hover {
+    background-color: rgb(9, 0, 128);
+    transition: 0.25s;
+}
+
+#registerBtn:hover {
+    background-color: rgb(221, 224, 226);
+    transition: 0.25s;
+}
+
