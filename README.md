@@ -14,10 +14,10 @@ The Expense Reimbursement App manages the process of reimbursing employees for e
 - Java
 
 ## Features
--User 
-  - Login
-  - Create reimbursment
-  - View past reimbursements
+- User 
+  -- Login
+  -- Create reimbursment
+  -- View past reimbursements
 
 ## Contributers
 - Triston Sorenson
