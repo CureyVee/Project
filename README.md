@@ -18,6 +18,11 @@ The Expense Reimbursement App manages the process of reimbursing employees for e
   - Login
   - Create reimbursment
   - View past reimbursements
+- Manager
+  - Login
+  - Create reimbursement
+  - Approve, deny reimbursements
+  - View pending reimbursements
 
 ## Contributers
 - Triston Sorenson
