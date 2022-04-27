@@ -15,9 +15,9 @@ The Expense Reimbursement App manages the process of reimbursing employees for e
 
 ## Features
 - User 
-  -- Login
-  -- Create reimbursment
-  -- View past reimbursements
+  - Login
+  - Create reimbursment
+  - View past reimbursements
 
 ## Contributers
 - Triston Sorenson
